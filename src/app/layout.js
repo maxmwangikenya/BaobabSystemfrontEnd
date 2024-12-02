@@ -1,4 +1,5 @@
-import "./globals.css";
+import './globals.css'
+
 import { DashboardLayout } from "@/layouts/DashboardLayouts";
 export const metadata = {
   title: "Create Next App",

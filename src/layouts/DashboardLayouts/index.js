@@ -11,7 +11,6 @@ export function DashboardLayout({ children }) {
         <main className="p-4">
           {children}
         </main>
-        <Footer />
       </div>
     </div>
   )
