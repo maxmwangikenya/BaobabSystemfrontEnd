@@ -10,7 +10,7 @@ import { Column } from 'primereact/column';
 // Imports End
 
 
-const Index = () => {
+const Analytics = () => {
   const [date, setDate] = useState(null);
   const [selectedCity, setSelectedCity] = useState(null);
   const [products, setProducts] = useState([
@@ -53,4 +53,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Analytics;

@@ -1,5 +1,5 @@
 import React from 'react'
-import Analytics from "@/Components/analytics"
+import Analytics from "@/components/analytics"
 
 const page = () => {
   return (
