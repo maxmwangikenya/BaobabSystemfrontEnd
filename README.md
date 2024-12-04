@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js PrimeReact Template
+A modern, feature-rich template built with Next.js and PrimeReact for rapid application development. This template provides a solid foundation for building scalable web applications with a beautiful UI component library.
 
-## Getting Started
+# Features
 
-First, run the development server:
+⚡ Next.js 14 with App Router
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🎨 PrimeReact UI Components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📱 Responsive Design
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📊 Dashboard Layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎨 Theme Customization
 
-## Learn More
+🚀 Performance Optimized
 
-To learn more about Next.js, take a look at the following resources:
+# Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Node.js (version 18.17 or higher)
+npm or yarn package manager
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# License
 
-## Deploy on Vercel
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by Emmanuel
