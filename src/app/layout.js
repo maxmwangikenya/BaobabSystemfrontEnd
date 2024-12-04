@@ -1,5 +1,5 @@
 'use client';
-import './globals.css';
+import '../styles/main.scss';
 import { DashboardLayout } from "@/layouts/DashboardLayouts";
 import 'primeflex/primeflex.css';
 import 'primereact/resources/primereact.css';
