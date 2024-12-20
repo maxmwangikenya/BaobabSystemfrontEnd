@@ -18,7 +18,7 @@ A modern, feature-rich template built with Next.js and PrimeReact for rapid appl
 # Prerequisites
 
 Node.js (version 18.17 or higher)
-npm or yarn package manager
+npm or yarn package manager..
 
 # License
 
