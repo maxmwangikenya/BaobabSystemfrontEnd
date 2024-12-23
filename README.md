@@ -3,11 +3,11 @@ A modern, feature-rich template built with Next.js and PrimeReact for rapid appl
 
 # Features
 
-⚡ Next.js 14 with App Router
+⚡ Next.js 14 with App Router.
 
 🎨 PrimeReact UI Components
 
-📱 Responsive Design
+📱 Responsive Design.
 
 📊 Dashboard Layout
 
