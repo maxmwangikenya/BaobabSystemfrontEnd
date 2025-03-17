@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16803c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16803c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#BE0027;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9A0027;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="#FFFFFF" />
+  
+  <circle cx="100" cy="100" r="80" fill="#238C3D" opacity="0.1" />
+  <circle cx="700" cy="500" r="100" fill="#BE0027" opacity="0.1" />
+  
+  <g transform="translate(250, 100)">
+    <path d="M150,20 
+             C150,20 280,50 280,150
+             C280,380 150,400 150,400
+             C150,400 20,380 20,150
+             C20,50 150,20 150,20z" 
+          fill="url(#shieldGradient)"
+          stroke="#000000"
+          stroke-width="2"/>
+    
+    <g transform="translate(85, 140)">
+      <rect x="0" y="40" width="130" height="100" rx="10" fill="#BE0027"/>
+      <path d="M30,40 
+               C30,40 30,20 65,20
+               C100,20 100,40 100,40"
+            fill="none"
+            stroke="#000000"
+            stroke-width="20"
+            stroke-linecap="round"/>
+      
+      <circle cx="65" cy="80" r="15" fill="#FFFFFF"/>
+      <rect x="60" y="80" width="10" height="30" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <g transform="translate(200, 50)" stroke="#000000" stroke-width="2">
+    <path d="M50,20 L70,40 L90,20" fill="none"/>
+    <path d="M600,500 L620,520 L640,500" fill="none"/>
+  </g>
+
+  <g stroke="#238C3D" stroke-width="2" opacity="0.3">
+    <line x1="50" y1="150" x2="150" y2="150" />
+    <line x1="650" y1="450" x2="750" y2="450" />
+  </g>
+  <g stroke="#BE0027" stroke-width="2" opacity="0.3">
+    <line x1="700" y1="100" x2="750" y2="100" />
+    <line x1="50" y1="400" x2="150" y2="400" />
+  </g>
+
+  <g fill="#000000" opacity="0.2">
+    <circle cx="50" cy="50" r="3" />
+    <circle cx="750" cy="50" r="3" />
+    <circle cx="50" cy="550" r="3" />
+    <circle cx="750" cy="550" r="3" />
+  </g>
+
+  <circle cx="400" cy="300" r="180" 
+          stroke="#BE0027" 
+          stroke-width="2" 
+          fill="none" 
+          opacity="0.2">
+    <animate attributeName="r" 
+             from="180" to="190" 
+             dur="2s" 
+             repeatCount="indefinite"/>
+    <animate attributeName="opacity" 
+             from="0.2" to="0" 
+             dur="2s" 
+             repeatCount="indefinite"/>
+  </circle>
+
+  <g stroke="#000000" stroke-width="1" opacity="0.1">
+    <path d="M700,50 L750,50 M700,60 L750,60 M700,70 L750,70" />
+    <path d="M50,500 L100,500 M50,510 L100,510 M50,520 L100,520" />
+  </g>
+</svg>
