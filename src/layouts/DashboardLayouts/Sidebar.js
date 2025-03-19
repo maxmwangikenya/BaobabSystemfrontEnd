@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 const navigationItems = [
   {
-    href: '/',
-    label: 'Home',
+    href: '/sponsor',
+    label: 'Sponsors',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +27,8 @@ const navigationItems = [
     )
   },
   {
-    href: '/users',
-    label: 'Users',
+    href: '/child',
+    label: 'Child',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -50,8 +50,8 @@ const navigationItems = [
     )
   },
   {
-    href: '/roles',
-    label: 'Roles',
+    href: '/pledges',
+    label: 'Pledges',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -72,121 +72,7 @@ const navigationItems = [
       </svg>
     )
   },
-  {
-    href: '/organizations',
-    label: 'Organizations',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#EA580C"  // Orange
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="transition-colors duration-200 hover:stroke-orange-700"
-      >
-        <rect width="16" height="20" x="4" y="2" rx="2" />
-        <path d="M9 22v-4h6v4" />
-        <path d="M8 6h8" />
-        <path d="M8 10h8" />
-        <path d="M8 14h8" />
-      </svg>
-    )
-  },
-  {
-    href: '/clients',
-    label: 'Clients',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#fbd700"  // Cyan
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="transition-colors duration-200 hover:stroke-cyan-700"
-      >
-        <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
-        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-        <path d="M12 10v4" />
-        <path d="M9 13h6" />
-      </svg>
-    )
-  },
-  {
-    href: '/groups',
-    label: 'Groups',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#6366F1"  // Indigo
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="transition-colors duration-200 hover:stroke-indigo-700"
-      >
-        <rect x="3" y="3" width="7" height="7" rx="1" />
-        <rect x="14" y="3" width="7" height="7" rx="1" />
-        <rect x="3" y="14" width="7" height="7" rx="1" />
-        <rect x="14" y="14" width="7" height="7" rx="1" />
-      </svg>
-    )
-  },
-
-  {
-    href: '/permissions',
-    label: 'Permissions',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#EA580C"  // Orange
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="transition-colors duration-200 hover:stroke-orange-700"
-      >
-        <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-        <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-        <circle cx="12" cy="16" r="1" />
-        <path d="M12 17v2" />
-      </svg>
-    )
-  },
-  {
-    href: '/reports',
-    label: 'Reports',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#0891B2"  // Red
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="transition-colors duration-200 hover:stroke-red-700"
-      >
-        <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
-        <path d="M22 12A10 10 0 0 0 12 2v10z" />
-      </svg>
-    )
-  }
+  
 ];
 export default function Sidebar() {
   // State Start
