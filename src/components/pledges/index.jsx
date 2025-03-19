@@ -42,13 +42,16 @@ export default function Pledge() {
     }, []);
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
-
-        // If the value is an object, extract the 'id' from the selected item
-        if (name === "sponsor_id" || name === "child_id") {
-            setNewPledge({ ...newPledge, [name]: value.id });
+        // For Dropdown components
+        if (e.target && e.target.name) {
+            // Regular input handling
+            const { name, value } = e.target;
+            setNewPledge(prev => ({ ...prev, [name]: value }));
         } else {
-            setNewPledge({ ...newPledge, [name]: value });
+            // Dropdown handling
+            const name = e.originalEvent.target.name;
+            const value = e.value;
+            setNewPledge(prev => ({ ...prev, [name]: value }));
         }
     };
 
