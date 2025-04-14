@@ -113,7 +113,7 @@ export default function Sidebar() {
             {/* GOK Logo Start */}
             <div className="relative">
                     <Image
-                      src="/gok.svg"
+                      src="/logo1.jpeg"
                       alt="GOK Logo"
                       width={40}
                       height={40}
@@ -130,7 +130,7 @@ export default function Sidebar() {
 
             {/* GoK Text Start */}
             <p className="text-[12px] font-[800] text-gray-900">
-              GoK Auth
+              BaobabRun
             </p>
             {/* GoK Text Start */}
 
